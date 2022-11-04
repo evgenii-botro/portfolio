@@ -1,13 +1,43 @@
-# portfolio
-some training projects
+# Оптимизация производственных расходов металлургического комбината
 
-| # | Наименование проекта | Описание  | Используемые инструменты  |
-| :----: | :------: | :-----: | :------: |
-| 1 | [Улучшение процесса обогащения золота][1] | Выбор лучшей модели для увеличения показателей технологического процесса обогащения золота | `python`, `pandas`, `numpy`, `scipy`, `sklearn`, `matplotlib` |
-| 2 | [Прогноз количества заказов для сервиса такси][2] | Прогноз количества заказов в аэропортах для сервиса такси с целью более точного планирования количества доступных автомобилей | `python`, `pandas`, `numpy`, `statsmodels`, `sklearn`, `CatBoost`, `matplotlib` |
-| 3 | [Анализ текстов][2] | Анализ комментариев пользователей на токсичность | `python`, `pandas`, `numpy`, `nltk`, `sklearn`, `CatBoost` |
+## Описание проекта
+
+Чтобы уменьшить потребление электроэнергии на этапе обработки стали необходимо построить модель, которая предскажет температуру стали.
 
 
-[1]: https://github.com/aq2003/Portfolio/tree/main/Gold%20Recovery
-[2]: https://github.com/aq2003/Portfolio/tree/main/Taxi%20Service
-[3]: https://github.com/aq2003/Portfolio/tree/main/Analyzing%20Texts
+## Навыки и инструменты
+
+- **python**
+- **pandas**
+- **numpy**
+- **seaborn**
+- **matplotlib**
+- **time**
+- scipy.**stats**
+- sklearn.pipeline.**Pipeline**
+- sklearn.model_selection.**cross_val_score**
+- sklearn.model_selection.**GridSearchCV**
+- sklearn.model_selection.**TimeSeriesSplit**
+- sklearn.model_selection.**train_test_split**
+- sklearn.model_selection.**StratifiedKFold**
+- sklearn.metrics.**mean_absolute_error**
+- sklearn.linear_model.**LinearRegression**
+- sklearn.linear_model.**Lasso**
+- sklearn.linear_model.**Ridge**
+- pyod.models.knn.**KNN**
+- sklearn.preprocessing.**StandardScaler**
+- sklearn.tree.**DecisionTreeRegressor**
+- sklearn.ensemble.**RandomForestRegressor**
+- catboost.**CatBoostRegressor**
+- lightgbm.**LGBMRegressor**
+- xgboost.**XGBRegressor**
+- functools.**partial**
+
+## 
+
+## Общий вывод
+
+- Загружены данные и проведена предобработка.
+- Выполнено сравнение моделей с использованием различных наборов гиперпараметров.
+- Выбрана лучшая модель по результатам метрики MAE.
+- Для общей оценки по трем параметрам был создан относительный рейтинг.
