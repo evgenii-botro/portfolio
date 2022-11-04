@@ -25,7 +25,6 @@
 - sklearn.linear_model.**Ridge**
 - sklearn.preprocessing.**StandardScaler**
 - sklearn.preprocessing.**OrdinalEncoder**
-- sklearn.linear_model.**LinearRegression**
 - sklearn.tree.**DecisionTreeRegressor**
 - sklearn.ensemble.**RandomForestRegressor**
 - catboost.**CatBoostRegressor**
